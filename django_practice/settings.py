@@ -36,7 +36,7 @@ INSTALLED_APPS = [
     'cats',
     'corsheaders',
     'rest_framework',
-    'guincorn',
+    'gunicorn',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
