@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-ymwcc$pq^0195(o$v^0xyqa#8!(ic1ymh3hfgq$5gaeb6tb%8o
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.environ.get('DJANGO_DEBUG', '') != 'False'
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['djangotestfp.herokuapp.com']
 
 CORS_ORIGIN_ALLOW_ALL = True
 CSRF_TRUSTED_ORIGINS = ['https://hoppscotch.io']
