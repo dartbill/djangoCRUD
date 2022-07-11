@@ -9,7 +9,7 @@ import json
 
 
 def index(request):
-    return HttpResponse("Hello, world. You're at the polls index.")
+    return HttpResponse("Hello, world.")
 
 
 def get_cats(request):
