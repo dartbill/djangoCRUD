@@ -1,1 +1,1 @@
-web: gunicorn django_practice/wsgi.py
+web: gunicorn django_practice.wsgi
